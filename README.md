@@ -23,7 +23,7 @@ A command-line quiz application built in Python that lets users take various top
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/quiz-tool.git
+git clone https://github.com/RZ3M/quiz-tool.git
 ```
 
 2. Navigate to the project directory:
