@@ -1,0 +1,83 @@
+{
+  "title": "6a Copilot",
+  "questions": [
+    {
+      "question": "A deadlock occurs when a process asks for a resource that is already assigned to another process.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Deadlocks are mostly ignored by Linux and Windows operating systems.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Deadlock prevention ensures that at least one of the necessary conditions for deadlock does not occur.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a necessary condition for a deadlock to occur?",
+      "choices": [
+        "Mutual Exclusion",
+        "Hold and Wait",
+        "Resource Allocation",
+        "Circular Wait"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Shareable resources do not require mutually exclusive access and thus cannot be involved in a deadlock.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the disadvantage of the 'Hold and Wait' condition in deadlock prevention?",
+      "choices": [
+        "High resource utilization",
+        "Low resource utilization",
+        "Increased system throughput",
+        "None of the above"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Deadlock avoidance requires additional information about resource requests.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "A process is in a safe state if it is possible to complete its task using the available resources.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In a resource allocation graph, if at least one cycle exists, there is a deadlock.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Banker's Algorithm requires processes to provide information about their maximum resource use.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Deadlock detection and recovery allows deadlocks to occur and then later detects and recovers from them.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which algorithm is used to ignore deadlocks in systems where deadlocks occur infrequently?",
+      "choices": [
+        "Banker's Algorithm",
+        "Circular Wait",
+        "Ostrich Algorithm",
+        "Resource Allocation Graph"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    }
+  ]
+}

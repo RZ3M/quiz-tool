@@ -1,0 +1,125 @@
+{
+  "title": "6b Copilot",
+  "questions": [
+    {
+      "question": "What does the Banker’s Algorithm help in?",
+      "choices": [
+        "Allocating multiple resources",
+        "Allocating a single resource",
+        "Detecting deadlocks",
+        "Recovering from deadlocks"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What do processes need to provide in the simplest technique of resource allocation?",
+      "choices": [
+        "Their minimum resource requirements",
+        "Their maximum resource requirements",
+        "Their average resource requirements",
+        "Their exact resource requirements"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In a resource allocation graph, what indicates a chance of having a deadlock?",
+      "choices": [
+        "No cycles",
+        "Parallel edges",
+        "Cycles",
+        "Disconnected components"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Given that R0 has 8 instances, R1 has 5 instances, R2 has 9 instances, and R3 has 8 instances, how many instances of R2 are allocated to P2 in the following scenario?",
+      "choices": ["0", "1", "2", "3"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In a deadlock detection scenario with one resource of each type, if there is a cycle in the resource graph, what does it indicate?",
+      "choices": [
+        "No deadlock",
+        "Potential deadlock",
+        "Guaranteed deadlock",
+        "Recoverable deadlock"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which type of resources can be taken away from a process?",
+      "choices": [
+        "Non-Preemptive resources",
+        "Preemptive resources",
+        "Shared resources",
+        "Exclusive resources"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is an example of a non-preemptive resource?",
+      "choices": ["Memory", "CPU", "Printer", "CD burning"],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In the context of memory management, what is the role of the Memory Manager?",
+      "choices": [
+        "Allocating CPU time",
+        "Managing memory hierarchy",
+        "Handling input/output operations",
+        "Scheduling processes"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Why is giving user programs access to physical memory risky?",
+      "choices": [
+        "It can destroy the hardware",
+        "It can erase data of other programs",
+        "It can crash the operating system",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is the benefit of having different address spaces in memory management?",
+      "choices": [
+        "Programs will not interfere with each other",
+        "Programs can share memory addresses",
+        "Programs can run faster",
+        "Programs can use unlimited memory"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Deadlock detection and recovery allows deadlocks to occur and then later detects and recovers from them.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Processes should indicate the maximum number of each resource that they require in the simplest resource allocation technique.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Recovery through killing processes means taking resources away from one process and providing them to another.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Memory Address Space is a risky feature in operating systems.",
+      "answer": false,
+      "type": "true_false"
+    }
+  ]
+}

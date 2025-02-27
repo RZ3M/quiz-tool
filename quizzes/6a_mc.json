@@ -1,0 +1,123 @@
+{
+  "title": "6a MC",
+  "questions": [
+    {
+      "question": "Which operating systems mostly ignore the deadlock problem?",
+      "choices": [
+        "Linux and Windows",
+        "MacOS and Unix",
+        "iOS and Android",
+        "All operating systems"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is NOT a necessary condition for a deadlock to occur?",
+      "choices": [
+        "Mutual Exclusion",
+        "Hold and Wait",
+        "Resource Allocation",
+        "Circular Wait"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is the purpose of deadlock prevention?",
+      "choices": [
+        "To ensure all necessary conditions for deadlock are met",
+        "To ensure at least one necessary condition for deadlock does not occur",
+        "To ignore deadlocks",
+        "To recover from deadlocks"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Shareable resources do not require mutually exclusive access and thus cannot be involved in a deadlock.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which condition must be guaranteed to ensure 'Hold and Wait' never occurs?",
+      "choices": [
+        "Processes request resources before execution",
+        "Processes hold multiple resources at a time",
+        "Processes request resources only during execution",
+        "Resources are always preempted"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What happens when a process holding some resources requests another resource that cannot be allocated?",
+      "choices": [
+        "It continues running",
+        "It releases all held resources",
+        "It waits indefinitely",
+        "It terminates"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is imposed by circular wait prevention?",
+      "choices": [
+        "No resource allocation",
+        "Total ordering of resource types",
+        "Random resource allocation",
+        "Limited resource access"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Deadlock prevention can lead to which of the following disadvantages?",
+      "choices": [
+        "High device utilization",
+        "Low device utilization",
+        "High system throughput",
+        "No impact on system performance"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Deadlock avoidance requires additional information about how resources are requested.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "A process is in a safe state if it is possible to complete its task using the available resources.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In a resource allocation graph, if at least one cycle exists, there is a deadlock.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Banker's Algorithm requires processes to provide information about their maximum resource use.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Deadlock detection and recovery allows deadlocks to occur and then later detects and recovers from them.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which algorithm is used to ignore deadlocks in systems where deadlocks occur infrequently?",
+      "choices": [
+        "Banker's Algorithm",
+        "Circular Wait",
+        "Ostrich Algorithm",
+        "Resource Allocation Graph"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    }
+  ]
+}
