@@ -35,12 +35,6 @@
       "type": "multiple_choice"
     },
     {
-      "question": "Given that R0 has 8 instances, R1 has 5 instances, R2 has 9 instances, and R3 has 8 instances, how many instances of R2 are allocated to P2 in the following scenario?",
-      "choices": ["0", "1", "2", "3"],
-      "answer": 1,
-      "type": "multiple_choice"
-    },
-    {
       "question": "In a deadlock detection scenario with one resource of each type, if there is a cycle in the resource graph, what does it indicate?",
       "choices": [
         "No deadlock",
