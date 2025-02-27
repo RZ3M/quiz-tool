@@ -1,0 +1,125 @@
+{
+  "title": "5b Co",
+  "questions": [
+    {
+      "question": "Round-Robin (RR) scheduling algorithm is similar to FCFS scheduling but with added preemption.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "A time quantum in Round-Robin scheduling is generally from 10 to 100 milliseconds in length.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The ready queue in Round-Robin scheduling is treated as a linear queue.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "In Round-Robin scheduling, the CPU scheduler allocates the CPU to each process for a time interval up to one time quantum.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "If a process's CPU burst exceeds one time quantum in Round-Robin scheduling, the process is preempted and put back in the ready queue.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In Round-Robin scheduling, what happens if the time quantum is extremely small?",
+      "choices": [
+        "The RR policy is the same as the FCFS policy.",
+        "The CPU utilization is maximized.",
+        "A large number of context switches occur.",
+        "Processes wait indefinitely."
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The performance of the Round-Robin algorithm depends heavily on the size of the time quantum.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In Multi-level Queue CPU Scheduling, the ready queue is partitioned into separate queues for foreground and background processes.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In Multi-level Queue CPU Scheduling, each queue has its own scheduling algorithm.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In Multi-level Queue CPU Scheduling, what is the scheduling algorithm used for the foreground queue?",
+      "choices": [
+        "FCFS",
+        "Round-Robin",
+        "Priority Scheduling",
+        "Shortest Job First"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What are the two types of real-time systems?",
+      "choices": [
+        "Soft real-time and hard real-time systems",
+        "Dynamic and static systems",
+        "User-level and kernel-level systems",
+        "Foreground and background systems"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In real-time CPU scheduling, interrupt latency is the time from arrival of an interrupt to the start of the routine that services the interrupt.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is a deadlock?",
+      "choices": [
+        "A process that is always ready to run",
+        "A process waiting for a resource held by another process which is waiting for a resource held by the first process",
+        "A process running without interruption",
+        "A process terminated by the operating system"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In deadlock modeling, processes are represented by circles and resources by squares.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a condition for deadlock to occur?",
+      "choices": [
+        "Mutual exclusion",
+        "Hold and wait",
+        "Resource allocation",
+        "Circular wait"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Mutual exclusion means only one process at a time can use a resource.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In deadlock categorization, no preemption means a resource can be released only voluntarily by the process holding it after completing its task.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Circular wait condition in deadlock means there is a set of waiting processes {P0, P1, ..., Pn} where each process is waiting for a resource held by the next process in the set, and Pn is waiting for a resource held by P0.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}
