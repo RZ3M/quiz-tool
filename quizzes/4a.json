@@ -1,0 +1,85 @@
+{
+  "title": "4a Systems Programming Quiz",
+  "questions": [
+    {
+      "question": "Inter-Process Communication (IPC) is a technique that allows processes to communicate within the operating system.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The Shared Memory IPC model is slower than the Message Passing IPC model.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "In the Shared Memory IPC model, kernel intervention is required for every memory access.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a model of Inter-Process Communication?",
+      "choices": [
+        "Shared Memory",
+        "Message Passing",
+        "Direct Memory Access",
+        "Indirect Communication"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is a major challenge in the Shared Memory IPC model?",
+      "choices": [
+        "Establishing a shared memory region",
+        "Synchronizing processes accessing shared memory",
+        "Requiring kernel intervention for each access",
+        "Exchanging large amounts of data"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In the Message Passing IPC model, which of the following operations are required?",
+      "choices": [
+        "read and write",
+        "send and receive",
+        "create and destroy",
+        "allocate and deallocate"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Direct Communication in Message Passing IPC requires processes to explicitly name each other.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In Indirect Communication, messages are directed through unique identifiers known as mailboxes.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is a property of Direct Communication in Message Passing IPC?",
+      "choices": [
+        "Link is associated with many processes",
+        "Automatic link establishment",
+        "Messages are directed through mailboxes",
+        "Each pair of processes may have several links"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In the context of Message Passing IPC, what does a zero capacity buffer imply?",
+      "choices": [
+        "The sender never waits",
+        "The sender must wait for the receiver",
+        "The buffer can hold an infinite number of messages",
+        "The buffer can hold a finite number of messages"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    }
+  ]
+}

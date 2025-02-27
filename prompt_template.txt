@@ -1,0 +1,49 @@
+You are to generate quizzes for a computer science course. The quiz should feature Multiple choice questions as well as true and false questions. Make sure to COVER ALL content that you are given DO NOT limit the number of questions. The title of the quiz should match the content. The content to create a quiz for is:
+
+"
+
+"
+
+The output format needs to be in a json file following the exact format here. OUTPUT ONLY THE JSON:
+{
+    "title": "Science Quiz",
+    "questions": [
+        {
+            "question": "Water boils at 100 degrees Celsius at sea level.",
+            "answer": true,
+            "type": "true_false"
+        },
+        {
+            "question": "Diamonds are made of carbon.",
+            "answer": true,
+            "type": "true_false"
+        },
+        {
+            "question": "Lightning never strikes the same place twice.",
+            "answer": false,
+            "type": "true_false"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "choices": [
+                "Go",
+                "Gd",
+                "Au",
+                "Ag"
+            ],
+            "answer": 3,
+            "type": "multiple_choice"
+        },
+        {
+            "question": "Which of the following is NOT a noble gas?",
+            "choices": [
+                "Helium",
+                "Neon",
+                "Nitrogen",
+                "Argon"
+            ],
+            "answer": 3,
+            "type": "multiple_choice"
+        }
+    ]
+}

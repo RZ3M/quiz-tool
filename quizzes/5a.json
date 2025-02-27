@@ -1,0 +1,161 @@
+{
+  "title": "5a Systems Programming Quiz: CPU Scheduling and Algorithms",
+  "questions": [
+    {
+      "question": "CPU scheduling is the core of multiprogrammed operating systems.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In a single CPU core system, multiple processes can run simultaneously.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "The ready queue in CPU scheduling is always implemented as a first-in, first-out (FIFO) queue.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a state where CPU scheduling decisions may take place?",
+      "choices": [
+        "Switches from running to waiting state",
+        "Switches from running to ready state",
+        "Switches from waiting to ready",
+        "Process creation"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is the primary goal of CPU scheduling?",
+      "choices": [
+        "Maximize CPU utilization",
+        "Minimize memory usage",
+        "Maximize disk I/O",
+        "Minimize network latency"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is a scheduling criterion?",
+      "choices": [
+        "CPU utilization",
+        "Throughput",
+        "Turnaround time",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In the First Come First Served (FCFS) scheduling algorithm, the process that arrives first is always executed first.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which scheduling algorithm prioritizes the process with the shortest CPU burst time?",
+      "choices": [
+        "First Come First Served (FCFS)",
+        "Shortest Job First (SJF)",
+        "Priority Scheduling",
+        "Round Robin"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is a disadvantage of the First Come First Served (FCFS) scheduling algorithm?",
+      "choices": [
+        "It is non-preemptive",
+        "It may result in long waiting times",
+        "It requires knowledge of CPU burst times",
+        "It causes starvation"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In Priority Scheduling, a process with the highest priority (smallest integer) is executed first.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is a potential problem with Priority Scheduling?",
+      "choices": [
+        "High CPU utilization",
+        "Starvation of low-priority processes",
+        "Increased throughput",
+        "Reduced turnaround time"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is a solution to the starvation problem in Priority Scheduling?",
+      "choices": ["Aging", "Preemption", "Round Robin", "Shortest Job First"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The Shortest Job First (SJF) scheduling algorithm requires prior knowledge of CPU burst times.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following scheduling algorithms is non-preemptive?",
+      "choices": [
+        "First Come First Served (FCFS)",
+        "Shortest Job First (SJF)",
+        "Priority Scheduling",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is the average waiting time for processes using the Shortest Job First (SJF) scheduling algorithm with the following burst times: 3, 6, 9, 0?",
+      "choices": ["4.5", "5.0", "7.0", "8.2"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In Priority Scheduling, aging is used to increase the priority of processes over time.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a valid optimization criterion for CPU scheduling algorithms?",
+      "choices": [
+        "Maximize CPU utilization",
+        "Maximize memory usage",
+        "Minimize turnaround time",
+        "Minimize response time"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The CPU scheduler selects processes from the ready queue to allocate the CPU.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is true about the CPU I/O burst cycle?",
+      "choices": [
+        "Process execution begins with an I/O burst",
+        "Processes alternate between CPU bursts and I/O bursts",
+        "The final burst is always an I/O burst",
+        "CPU bursts are longer than I/O bursts"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In a multicore system, CPU scheduling is extended to all processing cores.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}

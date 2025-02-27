@@ -1,0 +1,80 @@
+{
+  "title": "4b Systems Programming Quiz: Process Operations, Threads, and Synchronization",
+  "questions": [
+    {
+      "question": "A program resides on disk as a binary executable file before being loaded into memory.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The linker combines relocatable object files into a single binary executable file.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The loader is responsible for compiling source files into object files.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following system calls is used to create a new process?",
+      "choices": ["exec()", "fork()", "wait()", "exit()"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is the primary role of the exec() system call?",
+      "choices": [
+        "Create a new process",
+        "Replace the process memory space with a new program",
+        "Terminate a process",
+        "Wait for a child process to terminate"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is true about threads?",
+      "choices": [
+        "A thread is a heavy-weight process",
+        "A thread cannot perform more than one task at a time",
+        "A thread comprises a thread ID, program counter, register set, and stack",
+        "Thread creation is more resource-intensive than process creation"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In the context of threads, which of the following is a user-level thread library?",
+      "choices": [
+        "POSIX Pthreads",
+        "Windows threads",
+        "Java threads",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The Producer-Consumer problem is also known as the Bounded Buffer Problem.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In the Producer-Consumer problem, if the buffer is full, the producer will continue to produce data without waiting.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is a challenge in multicore programming?",
+      "choices": [
+        "Identifying tasks",
+        "Data splitting",
+        "Testing and debugging",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    }
+  ]
+}

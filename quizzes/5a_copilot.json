@@ -1,0 +1,126 @@
+{
+  "title": "5a Copilot CSCI 3310U Operating Systems Quiz",
+  "questions": [
+    {
+      "question": "CPU scheduling is the core of multiprogrammed operating systems.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "By switching CPU cores among various processes, the operating system can make computers more efficient and productive.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In a single CPU core system, multiple processes can run simultaneously.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the core objective of a multiprogramming system?",
+      "choices": [
+        "To minimize memory usage",
+        "To keep the CPU idle",
+        "To have some processes running at all times to maximize CPU utilization",
+        "To decrease process waiting time"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The idle time in a single CPU core system is wasted.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In a multiprogramming system, the CPU assigns the core to another process during idle CPU time.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the main function of the CPU scheduler?",
+      "choices": [
+        "To execute processes in the order they arrive",
+        "To switch the CPU core between processes",
+        "To allocate memory to processes",
+        "To manage I/O devices"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The ready queue is necessarily a first-in, first-out (FIFO) queue.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a CPU scheduling decision point?",
+      "choices": [
+        "Switching from running to waiting state",
+        "Switching from waiting to ready state",
+        "Switching from running to terminated state",
+        "Switching from waiting to terminated state"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "CPU utilization aims to keep the CPU as busy as possible.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What does the turnaround time measure?",
+      "choices": [
+        "The amount of time a process has been waiting in the ready queue",
+        "The amount of time to execute a particular process",
+        "The number of processes that complete their execution per time unit",
+        "The amount of time it takes from when a request was submitted until the first response is produced"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "First Come First Served (FCFS) scheduling algorithm uses a non-preemptive approach.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In FCFS scheduling, processes run until they are finished.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the main disadvantage of the First Come First Served scheduling algorithm?",
+      "choices": [
+        "It is too complex.",
+        "It takes a lot of time to run.",
+        "It requires too much memory.",
+        "It is difficult to implement."
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Shortest Job First (SJF) scheduling algorithm serves the process with the shortest job first.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In Priority Scheduling, the CPU is allocated to the process with the highest priority (smallest integer means highest priority).",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What problem does Priority Scheduling face?",
+      "choices": ["Starvation", "Aging", "Deadlock", "Context switching"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In Priority Scheduling, aging is a solution to the problem of starvation.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}

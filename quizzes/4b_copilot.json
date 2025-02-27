@@ -1,0 +1,102 @@
+{
+  "title": "4b Copilot",
+  "questions": [
+    {
+      "question": "A program resides on disk as a binary executable file before it is loaded into memory to become a process.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Source files are compiled into relocatable object files.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The loader combines relocatable object files into a single binary executable file.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "In which system call does the shell create a new process to run the program?",
+      "choices": ["exec()", "fork()", "wait()", "exit()"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The exec() system call replaces the process memory space with a new program.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What system call does the parent process use to terminate a child process?",
+      "choices": ["abort()", "exec()", "wait()", "fork()"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "When the parent process does not invoke wait() and the child process terminates, it becomes a(n) ________.",
+      "choices": ["zombie", "orphan", "daemon", "ghost"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "A traditional process has a single thread of control.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Threads allow a process to perform multiple tasks at the same time.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What are the challenges associated with multicore or multiprocessor systems?",
+      "choices": [
+        "Identifying tasks",
+        "Balance",
+        "Data splitting",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "User threads are managed by the kernel.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is a primary thread library?",
+      "choices": [
+        "POSIX Pthreads",
+        "Windows threads",
+        "Java threads",
+        "All of the above"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Java threads can be created by extending the Thread class or implementing the Runnable interface.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The bounded buffer problem is also known as the Producer-Consumer Problem.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What keeps track of the number of full buffers in the consumer-producer problem?",
+      "choices": ["Counter", "Semaphore", "Flag", "Lock"],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The process of assigning final addresses to the program parts and adjusting code and data to match those addresses is known as __________.",
+      "choices": ["Loading", "Relocation", "Linking", "Compiling"],
+      "answer": 2,
+      "type": "multiple_choice"
+    }
+  ]
+}
