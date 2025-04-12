@@ -54,18 +54,21 @@ class Quiz:
         Returns:
             bool or str: True if answered correctly, False if incorrect, "q" if user wants to quit
         """
-        print(f"Question {question_number}/{self.total_questions} - {self.title}")
+        print(
+            f"Question {question_number}/{self.total_questions} - {self.title}")
         print(f"\n{question_data['question']}\n")
 
         # Handle different question types
         question_type = question_data.get("type", "multiple_choice")
-        user_answer_data = {"question": question_data["question"], "correct": False}
+        user_answer_data = {
+            "question": question_data["question"], "correct": False}
 
         if question_type == "true_false":
             # True/False question
             print("1. True")
             print("2. False")
-            user_input = input("\nEnter your answer (number or 'q'): ").strip().lower()
+            user_input = input(
+                "\nEnter your answer (number or 'q'): ").strip().lower()
 
             if user_input == "q":
                 return "q"
@@ -94,7 +97,8 @@ class Quiz:
                     print("\n✓ Correct! Well done!\n")
                 else:
                     correct_text = "True" if question_data["answer"] else "False"
-                    print(f"\n✗ Incorrect. The correct answer is: {correct_text}\n")
+                    print(
+                        f"\n✗ Incorrect. The correct answer is: {correct_text}\n")
             except ValueError:
                 print("Please enter a valid number or 'q'.")
                 return self.present_question(question_number, question_data)
@@ -105,7 +109,8 @@ class Quiz:
             for i, choice in enumerate(choices, 1):
                 print(f"{i}. {choice}")
 
-            user_input = input("\nEnter your answer (number or 'q'): ").strip().lower()
+            user_input = input(
+                "\nEnter your answer (number or 'q'): ").strip().lower()
 
             if user_input == "q":
                 return "q"
@@ -113,7 +118,8 @@ class Quiz:
             try:
                 user_answer = int(user_input)
                 if user_answer < 1 or user_answer > len(choices):
-                    print(f"Please enter a number between 1 and {len(choices)}.")
+                    print(
+                        f"Please enter a number between 1 and {len(choices)}.")
                     return self.present_question(question_number, question_data)
 
                 correct_answer_idx = question_data["answer"] - 1
@@ -151,7 +157,8 @@ class Quiz:
             else 0
         )
         print(f"=== Quiz Complete: {self.title} ===")
-        print(f"You got {self.correct_answers} out of {self.total_questions} correct.")
+        print(
+            f"You got {self.correct_answers} out of {self.total_questions} correct.")
         print(f"Score: {percentage:.1f}%")
 
         if percentage >= 90:
@@ -339,6 +346,9 @@ def main():
         input("\nPress Enter to exit...")
         return
 
+    # Sort quizzes alphabetically by title
+    quiz_data.sort(key=lambda quiz: quiz["title"])
+
     while True:
         clear_screen()
         print("=== QUIZ APPLICATION ===\n")
@@ -390,14 +400,16 @@ def take_individual_quiz(quiz_data):
 
         # Run the selected quiz
         selected_quiz = quiz_data[choice - 1]
-        quiz = Quiz(selected_quiz["title"], selected_quiz["questions"], randomize)
+        quiz = Quiz(selected_quiz["title"],
+                    selected_quiz["questions"], randomize)
         result = quiz.run_quiz()
 
         if result is None:  # User exited the quiz
             return  # Go back to main menu
 
         # Ask if user wants to take another quiz
-        another = get_yes_no_input("\nWould you like to take another quiz? (y/n): ")
+        another = get_yes_no_input(
+            "\nWould you like to take another quiz? (y/n): ")
         if not another:
             return  # Go back to main menu
 
@@ -438,7 +450,8 @@ def take_combined_quiz(quiz_data):
                 # Validate all entries
                 valid = all(1 <= s <= len(quiz_data) for s in selections)
                 if not valid:
-                    print(f"Please enter valid numbers between 1 and {len(quiz_data)}.")
+                    print(
+                        f"Please enter valid numbers between 1 and {len(quiz_data)}.")
                     continue
 
                 # Convert to 0-based indices
@@ -456,13 +469,15 @@ def take_combined_quiz(quiz_data):
     selected_quizzes = [quiz_data[i] for i in selected_indices]
 
     # Ask about randomization
-    randomize = get_yes_no_input("Would you like to randomize the questions? (y/n): ")
+    randomize = get_yes_no_input(
+        "Would you like to randomize the questions? (y/n): ")
 
     # Create and run the combined quiz
     combined_quiz_data = create_combined_quiz(selected_quizzes, randomize)
 
     if combined_quiz_data:
-        quiz = Quiz(combined_quiz_data["title"], combined_quiz_data["questions"])
+        quiz = Quiz(combined_quiz_data["title"],
+                    combined_quiz_data["questions"])
         quiz.run_quiz()
     else:
         print("Failed to create combined quiz.")
@@ -478,7 +493,8 @@ def get_numeric_input(prompt, min_val, max_val):
             if min_val <= value <= max_val:
                 return value
             else:
-                print(f"Please enter a number between {min_val} and {max_val}.")
+                print(
+                    f"Please enter a number between {min_val} and {max_val}.")
         except ValueError:
             print("Please enter a valid number.")
 
