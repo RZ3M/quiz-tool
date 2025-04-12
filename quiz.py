@@ -379,9 +379,11 @@ def take_individual_quiz(quiz_data):
 
         # Display available quizzes
         for i, quiz in enumerate(quiz_data, 1):
-            print(f"{i}. {quiz['title']}")
+            # Add a space for single-digit numbers
+            print(f"{i:2}. {quiz['title']}")
 
-        print(f"{len(quiz_data) + 1}. Back to main menu")
+        # Align "Back to main menu"
+        print(f"{len(quiz_data) + 1:2}. Back to main menu")
 
         # Get user choice
         choice = get_numeric_input(
@@ -428,7 +430,7 @@ def take_combined_quiz(quiz_data):
 
     # Display available quizzes
     for i, quiz in enumerate(quiz_data, 1):
-        print(f"{i}. {quiz['title']} ({len(quiz['questions'])} questions)")
+        print(f"{i:2}. {quiz['title']} ({len(quiz['questions'])} questions)")
 
     # Get user selections
     valid_selection = False

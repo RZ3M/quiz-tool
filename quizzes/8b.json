@@ -1,0 +1,162 @@
+{
+  "title": "08B - Virtual Memory and Page Replacement in Operating Systems",
+  "questions": [
+    {
+      "question": "Paging allows a process’s physical address space to be non-contiguous.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Pages and frames must be of the same size for paging to work correctly.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT true about virtual memory?",
+      "choices": [
+        "Each program has its own address space.",
+        "All pages must be loaded into physical memory at once.",
+        "Only needed pages are loaded into memory.",
+        "Pages are small chunks of address space."
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is a Page Fault?",
+      "choices": [
+        "When a page in memory is corrupted",
+        "When a page in memory is accessed too frequently",
+        "When a referenced page is not in physical memory",
+        "When the MMU fails to translate a logical address"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Demand paging loads a page into memory only when it is requested.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What does the Present/Absent bit in a page table indicate?",
+      "choices": [
+        "If the page is referenced or modified",
+        "If the page is in memory or not",
+        "If the page is read-only or read-write",
+        "If the page is cached or not"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What does the Modified bit (dirty bit) signify?",
+      "choices": [
+        "The page is recently used",
+        "The page is currently being accessed",
+        "The page has been written to",
+        "The page is not mapped"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Page tables can reduce system performance due to double memory accesses.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the purpose of the Translation Lookaside Buffer (TLB)?",
+      "choices": [
+        "To store frequently used data",
+        "To store the entire physical memory",
+        "To cache recent virtual-to-physical address translations",
+        "To control the MMU"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The TLB is a software structure maintained by the OS.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which part of the address is used to index into the page table?",
+      "choices": ["Offset", "Segment number", "Page number", "Frame number"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The physical memory address is composed of the frame number and:",
+      "choices": ["Page number", "Offset", "Base address", "Virtual address"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The Optimal Page Replacement Algorithm is implementable in practice.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which page replacement algorithm uses the R (Reference) and M (Modified) bits?",
+      "choices": [
+        "FIFO",
+        "Least Recently Used",
+        "Optimal",
+        "Not Recently Used"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What does the First In First Out (FIFO) page replacement algorithm do?",
+      "choices": [
+        "Replaces the page least used recently",
+        "Replaces the page with the highest label",
+        "Replaces the page that entered memory first",
+        "Replaces the modified page only"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is unique about the Second Chance Page Replacement Algorithm?",
+      "choices": [
+        "Uses the M bit for priority",
+        "Pages are removed based on usage frequency",
+        "Pages are given a second chance if R bit is set",
+        "It ignores the reference bits"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which page replacement algorithm assumes that recently used pages will be used again soon?",
+      "choices": ["FIFO", "Least Recently Used", "Optimal", "Second Chance"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The page table must be accessed before memory can be accessed.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In paging, what structure holds the mapping of logical to physical pages?",
+      "choices": [
+        "Frame buffer",
+        "Cache table",
+        "Translation Lookaside Buffer",
+        "Page table"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: A logical address space can be larger than the available physical memory.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}

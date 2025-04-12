@@ -1,5 +1,5 @@
 {
-  "title": "5b Copilot CSCI 3310U Operating Systems Quiz",
+  "title": "05B - Copilot CSCI 3310U Operating Systems Quiz",
   "questions": [
     {
       "question": "Round-Robin (RR) scheduling algorithm is similar to FCFS scheduling but with added preemption.",

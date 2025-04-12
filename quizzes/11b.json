@@ -1,0 +1,151 @@
+{
+  "title": "11B - Server Architecture, Network Security, and Protection",
+  "questions": [
+    {
+      "question": "Blocking I/O operations can delay a server if it waits too long for a client's response.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following describes a single client server?",
+      "choices": [
+        "Handles multiple client requests in parallel",
+        "Uses non-blocking I/O to manage concurrency",
+        "Accepts one connection and serves only one client",
+        "Uses load balancing across multiple threads"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: In a multi-threaded server, blocking sockets are acceptable.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What does an HTTP server do when it receives a request?",
+      "choices": [
+        "Shuts down the client connection",
+        "Processes the request and returns a response",
+        "Encrypts the client data with a private key",
+        "Reboots the server"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which line in an HTTP request identifies the client's software?",
+      "choices": ["Host", "Connection", "User-Agent", "Accept"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Encryption converts plaintext into ciphertext to protect data.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the key problem with symmetric encryption?",
+      "choices": [
+        "It cannot be used for large files",
+        "It is easy to decrypt without a key",
+        "Securely sharing the key is difficult",
+        "It does not support binary data"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In asymmetric encryption:",
+      "choices": [
+        "The same key is used for encryption and decryption",
+        "The public key decrypts messages",
+        "One key encrypts, and a different key decrypts",
+        "Both keys are kept secret"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: In TLS, both the client and server share a symmetric key after the handshake.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "During the TLS handshake, what is sent by the server to prove its identity?",
+      "choices": [
+        "Private key",
+        "Encrypted password",
+        "Session token",
+        "Certificate"
+      ],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The principle of least privilege ensures:",
+      "choices": [
+        "All users get full admin access",
+        "Users are restricted from any access",
+        "Users and programs receive only necessary permissions",
+        "Programs can access any system resource"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The 'need-to-know' principle helps limit the damage a process can cause.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a valid Linux permission?",
+      "choices": ["r - read", "w - write", "x - execute", "a - archive"],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: A system is considered secure if resources are accessed only as intended.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What type of attack involves pretending to be an authorized user?",
+      "choices": [
+        "Replay attack",
+        "Masquerading",
+        "Session hijacking",
+        "Denial of service"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which security violation involves unauthorized data modification?",
+      "choices": [
+        "Breach of integrity",
+        "Breach of confidentiality",
+        "Theft of service",
+        "Session hijacking"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: A replay attack involves intercepting and reusing messages.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In the context of OS security, what is a 'threat'?",
+      "choices": [
+        "An attack already in progress",
+        "A system alert",
+        "A potential security violation",
+        "An encrypted session"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    }
+  ]
+}

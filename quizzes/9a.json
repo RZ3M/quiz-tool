@@ -1,0 +1,125 @@
+{
+  "title": "09A - File Systems and Directories in Operating Systems",
+  "questions": [
+    {
+      "question": "Files are managed by the operating system.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a responsibility of the file system?",
+      "choices": [
+        "Allowing data to be read and written",
+        "Creating user interfaces",
+        "Organizing files",
+        "Providing access to storage devices"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The part of the OS that manages files is called the file system.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "A file’s symbolic name is stored in:",
+      "choices": [
+        "Device registers",
+        "File header",
+        "Human-readable form",
+        "Page table"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is a typical file attribute?",
+      "choices": ["Port number", "Timestamp", "CPU usage", "Instruction count"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: File attributes such as location, type, and size vary across operating systems.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Extended file attributes may include:",
+      "choices": [
+        "RAM allocation",
+        "Checksum and character encoding",
+        "Process priority",
+        "File lock counter"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which device type is most commonly used for secondary storage of file systems?",
+      "choices": ["RAM", "Tape", "SSD", "Disk"],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Disks allow for both sequential and random access to file data.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What system call is used to remove a file?",
+      "choices": ["exit", "close", "delete", "release"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Opening a file loads its attributes and disk addresses into memory.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which operation writes new data into the file at the end?",
+      "choices": ["Write", "Append", "Seek", "Rename"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The seek system call is used to position the pointer for reading or writing.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What system call retrieves file metadata such as size or creation date?",
+      "choices": ["Open", "Get Attributes", "Fetch", "Copy"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Random access allows files to be read at any position using seek.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What type of directory structure contains only one directory for all files?",
+      "choices": ["Rooted Directory", "Hierarchical", "Flat", "Single Level"],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following best describes a hierarchical directory structure?",
+      "choices": [
+        "Each file is stored in a database",
+        "All files are stored on a magnetic tape",
+        "Directories are arranged in a tree structure",
+        "Only one user can access directories"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Directory allocation and management algorithms affect file system performance.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}

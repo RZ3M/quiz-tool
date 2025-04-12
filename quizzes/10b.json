@@ -1,0 +1,129 @@
+{
+  "title": "10B - OSI Layers and Error Detection in Operating Systems",
+  "questions": [
+    {
+      "question": "The Application Layer is responsible for services that directly support user applications such as email and file transfer.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a function of the Presentation Layer?",
+      "choices": [
+        "Encryption",
+        "Compression",
+        "File transmission",
+        "Character Set Conversion"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The Session Layer enables checkpointing to resume communication after a network failure.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The Transport Layer ensures complete data transfer by:",
+      "choices": [
+        "Compressing data",
+        "Handling routing",
+        "Recovering damaged data and checking for duplication",
+        "Assigning IP addresses"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The Network Layer is responsible for encoding and decoding data into binary or hexadecimal.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which OSI layer is responsible for routing and forwarding decisions?",
+      "choices": [
+        "Data Link Layer",
+        "Transport Layer",
+        "Network Layer",
+        "Physical Layer"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What protocol is used for error reporting and router signaling?",
+      "choices": ["IP", "TCP", "ICMP", "UDP"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The Data Link Layer is responsible for defining standards for the Physical Layer.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In the Data Link Layer, bits are often converted to which format?",
+      "choices": ["ASCII", "Decimal", "Hexadecimal", "Octal"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is a limitation of parity checks?",
+      "choices": [
+        "They cannot detect any errors",
+        "They are only used for analog signals",
+        "They fail if multiple bits are changed",
+        "They only work on ring topologies"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: In Even Parity, if the number of 1’s is odd, a 0 is added.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "In Odd Parity, what happens if the number of 1’s is even?",
+      "choices": [
+        "Nothing is added",
+        "A 0 is added",
+        "A 1 is added",
+        "The bit stream is reversed"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which error detection technique is widely used in the Internet?",
+      "choices": [
+        "Odd Parity",
+        "Checksum",
+        "Repetition Code",
+        "Majority Voting"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: In the checksum technique, if the sum of original data and its 1’s complement is all 1’s, no error is detected.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The Physical Layer is responsible for:",
+      "choices": [
+        "Error detection",
+        "File compression",
+        "Network topologies and signal encoding",
+        "Socket communication"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Termination in the Physical Layer prevents signal reflection.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}

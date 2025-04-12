@@ -1,0 +1,120 @@
+{
+  "title": "11A - Linux Kernel, Sockets, and Network Communication",
+  "questions": [
+    {
+      "question": "The Linux kernel handles I/O devices, memory management, and CPU access.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a component of the Linux kernel?",
+      "choices": [
+        "I/O component",
+        "Memory management",
+        "User interface design",
+        "Process management"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "All I/O operations in Linux pass through a device driver.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the function of the Virtual File System (VFS) layer?",
+      "choices": [
+        "Controls CPU scheduling",
+        "Routes network packets",
+        "Integrates I/O operations across devices",
+        "Encrypts kernel memory"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The shell in Linux is line-oriented and allows editing before sending a command.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which interface allows programs to create sockets in Linux?",
+      "choices": [
+        "VFS interface",
+        "File handler",
+        "Socket interface",
+        "Shell interpreter"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Sockets are exclusively used for TCP communication.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which protocol is used for reliable byte stream transmission?",
+      "choices": ["UDP", "ICMP", "TCP", "IP"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which socket function is used on the server to listen for new TCP connections?",
+      "choices": ["connect()", "accept()", "bind()", "listen()"],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "The function used on the client to initiate a TCP connection is:",
+      "choices": ["accept()", "connect()", "bind()", "socket()"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which function is used to send data through a socket?",
+      "choices": ["recv()", "write()", "send()", "accept()"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The select() function allows waiting for events on multiple sockets.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following functions is used to retrieve protocol-independent host and address information?",
+      "choices": ["fcntl()", "setsockopt()", "getaddrinfo()", "listen()"],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "UDP is considered:",
+      "choices": [
+        "Connection-oriented and reliable",
+        "Connection-less and fast",
+        "Slow and reliable",
+        "Reliable with high overhead"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: TCP offers error control and is more reliable than UDP.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "In client-server communication, which side initiates the connection?",
+      "choices": ["Server", "Client", "Router", "Socket"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Once a TCP connection is established, both client and server can send and receive data.",
+      "answer": true,
+      "type": "true_false"
+    }
+  ]
+}

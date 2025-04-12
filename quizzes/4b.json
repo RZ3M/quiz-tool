@@ -1,5 +1,5 @@
 {
-  "title": "4b Systems Programming Quiz: Process Operations, Threads, and Synchronization",
+  "title": "04B - Systems Programming Quiz: Process Operations, Threads, and Synchronization",
   "questions": [
     {
       "question": "A program resides on disk as a binary executable file before being loaded into memory.",

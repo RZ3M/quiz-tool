@@ -1,0 +1,140 @@
+{
+  "title": "10A - Computer Networks and Architecture in Operating Systems",
+  "questions": [
+    {
+      "question": "Networking allows devices to communicate and share resources.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a benefit of using networks for information sharing?",
+      "choices": [
+        "Easier to access information",
+        "Less time consuming",
+        "Requires physical devices like flash drives",
+        "Less prone to physical damage"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: One software license can be used by many computers in a network.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is a feature of network core devices like routers?",
+      "choices": [
+        "They operate at the application layer",
+        "They use sockets for communication",
+        "They work at the network layer and below",
+        "They run end-user programs"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In a client-server model, clients communicate directly with each other.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "What is a key feature of Peer-to-Peer (P2P) architecture?",
+      "choices": [
+        "All peers rely on a central server",
+        "Peers can act as both clients and servers",
+        "Peers only request data, not provide it",
+        "P2P networks are not scalable"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is a downside of P2P architecture?",
+      "choices": [
+        "High maintenance cost",
+        "Fixed IP addresses for peers",
+        "Complex management and reliability issues",
+        "No data sharing possible"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Developing network applications requires writing software for routers.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following denotes how a network service is accessed?",
+      "choices": ["Protocol", "Architecture", "Service", "Service Interface"],
+      "answer": 4,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which statement best describes a protocol in networking?",
+      "choices": [
+        "It is the hardware used for transmission",
+        "It defines rules and message formats for communication",
+        "It sets the price for internet services",
+        "It is a server that connects clients"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: TCP provides reliable end-to-end bidirectional communication.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What is the difference between network architecture and application architecture?",
+      "choices": [
+        "Network architecture is designed by app developers",
+        "Application architecture provides services to network layers",
+        "Network architecture organizes implementations and services provided to applications",
+        "They are both responsible for client-side code"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In the client-server model, which of the following is true?",
+      "choices": [
+        "Servers change IPs frequently",
+        "Clients wait for connections",
+        "Clients communicate only with the server",
+        "Servers cannot be scaled"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "In process communication over a network, what is used to send and receive messages?",
+      "choices": ["Cache", "Socket", "Router", "Firewall"],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Inter-process communication only occurs between different devices on a network.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which programming languages are commonly used to develop network applications?",
+      "choices": [
+        "C, Java, Python",
+        "HTML, CSS, SQL",
+        "PHP, Perl, Swift",
+        "R, MATLAB, Kotlin"
+      ],
+      "answer": 1,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: In P2P architecture, new peers reduce the scalability of the system.",
+      "answer": false,
+      "type": "true_false"
+    }
+  ]
+}
