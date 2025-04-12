@@ -1,0 +1,188 @@
+{
+  "title": "8a: Memory Management in Operating Systems",
+  "questions": [
+    {
+      "question": "Memory is central to the operation of a modern computer system.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Each byte in memory has the same address.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "The CPU fetches instructions from memory based on the program counter.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Which of the following is NOT a reason to restrict user access to physical memory?",
+      "choices": [
+        "User programs can destroy hardware.",
+        "User programs can crash the operating system.",
+        "User programs can improve system performance.",
+        "User programs can erase other programs' data."
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Why are memory address spaces important for running multiple programs?",
+      "choices": [
+        "They allow programs to run faster.",
+        "They enable the sharing of data between users.",
+        "They prevent interference between programs.",
+        "They increase memory size."
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Each process in memory shares the same address space.",
+      "answer": false,
+      "type": "true_false"
+    },
+    {
+      "question": "Which CPU registers are used to define a logical address space?",
+      "choices": [
+        "Stack and Base",
+        "Base and Limit",
+        "Offset and Index",
+        "Accumulator and Program Counter"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What does the base register store?",
+      "choices": [
+        "The number of processes in memory",
+        "The length of the program",
+        "The smallest legal physical memory address",
+        "The CPU frequency"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What does the limit register specify?",
+      "choices": [
+        "The number of bytes to copy",
+        "The length of the program",
+        "The page number",
+        "The CPU cycle count"
+      ],
+      "answer": 2,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Contiguous memory allocation requires that each process is stored in one continuous block of memory.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "Where is the operating system typically stored in memory?",
+      "choices": [
+        "Low memory",
+        "Middle memory",
+        "High memory",
+        "Virtual memory"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What causes external fragmentation?",
+      "choices": [
+        "Processes using large memory",
+        "Fixed-size partitions",
+        "Scattered free memory blocks",
+        "Swapping inactive processes"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Internal fragmentation occurs when:",
+      "choices": [
+        "There is not enough memory for a process.",
+        "Memory is divided into small scattered pieces.",
+        "Allocated memory is larger than requested.",
+        "All memory is in use."
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "Which of the following is a solution to external fragmentation?",
+      "choices": [
+        "Using larger partitions",
+        "Adding more memory",
+        "Compaction",
+        "Avoiding swapping"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Paging allows logical address spaces to be non-contiguous.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "What are frames in the context of paging?",
+      "choices": [
+        "Blocks of logical memory",
+        "Blocks of disk storage",
+        "Fixed-size blocks of physical memory",
+        "Interrupt service routines"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What are pages in paging?",
+      "choices": [
+        "Fixed-size blocks of physical memory",
+        "Blocks of cache",
+        "Blocks of logical memory",
+        "Page file entries"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: The page table maps logical pages to physical frames.",
+      "answer": true,
+      "type": "true_false"
+    },
+    {
+      "question": "The CPU divides every address into:",
+      "choices": [
+        "Base and limit",
+        "Process ID and offset",
+        "Page number and page offset",
+        "Frame ID and segment"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "What is swapping in memory management?",
+      "choices": [
+        "Replacing slow memory with fast memory",
+        "Moving processes between CPU and cache",
+        "Temporarily moving inactive processes to disk",
+        "Restarting the memory controller"
+      ],
+      "answer": 3,
+      "type": "multiple_choice"
+    },
+    {
+      "question": "True or False: Paging completely eliminates both internal and external fragmentation.",
+      "answer": false,
+      "type": "true_false"
+    }
+  ]
+}
