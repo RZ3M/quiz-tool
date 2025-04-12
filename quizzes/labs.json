@@ -1,0 +1,201 @@
+{
+  "title": "LABS - 1-9",
+  "questions": [
+    {
+      "question": "What does the `__init` macro indicate in a Linux kernel module?",
+      "type": "multiple_choice",
+      "choices": [
+        "The function is a constructor for user-space programs",
+        "The function will be run after the module is removed",
+        "The function is only used during module initialization and can be discarded after",
+        "The function initializes file descriptors"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "The `printk()` function in kernel modules logs messages to the system log.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "What does the `fork()` system call return in the child process?",
+      "type": "multiple_choice",
+      "choices": ["The child's PID", "0", "-1", "The parent's PID"],
+      "answer": 2
+    },
+    {
+      "question": "Each call to fork() doubles the number of running processes.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "Which function is used to replace the current process image with a new process image?",
+      "type": "multiple_choice",
+      "choices": ["fork()", "execvp()", "wait()", "pthread_create()"],
+      "answer": 2
+    },
+    {
+      "question": "Threads share the same address space in memory.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "In priority scheduling, which process runs first?",
+      "type": "multiple_choice",
+      "choices": [
+        "The one with the highest burst time",
+        "The one with the lowest priority number",
+        "The one with the highest priority number",
+        "The one with the earliest arrival time"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The `qsort` function in C can be used to sort processes by priority.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "What is the purpose of the Banker's algorithm?",
+      "type": "multiple_choice",
+      "choices": [
+        "To maximize CPU utilization",
+        "To handle page faults",
+        "To detect deadlock",
+        "To ensure system remains in a safe state"
+      ],
+      "answer": 4
+    },
+    {
+      "question": "The Banker's algorithm considers both the allocated and maximum need matrices.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "In FIFO page replacement, which page gets removed when the frame is full?",
+      "type": "multiple_choice",
+      "choices": [
+        "The one used most recently",
+        "The one not used for the longest time",
+        "The first one that was inserted",
+        "The one with the lowest page number"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "In the FIFO algorithm, page hits cause a page to be dequeued.",
+      "type": "true_false",
+      "answer": false
+    },
+    {
+      "question": "Which function reads a line from a file and stores it in a buffer in the code from lab 8?",
+      "type": "multiple_choice",
+      "choices": ["readLine()", "fgets()", "fileToString()", "scanf()"],
+      "answer": 3
+    },
+    {
+      "question": "IPv4 addresses use the address family AF_INET.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "Which function converts Fahrenheit to Celsius on the server side?",
+      "type": "multiple_choice",
+      "choices": [
+        "temp_convert()",
+        "celsius()",
+        "fahrenheit_to_celsius()",
+        "No specific function is defined"
+      ],
+      "answer": 4
+    },
+    {
+      "question": "The server program sends back the Celsius temperature to the client over the same socket.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "Which of the following is used to define metadata like author and description in a Linux kernel module?",
+      "type": "multiple_choice",
+      "choices": [
+        "MODULE_INFO()",
+        "KERNEL_DESC()",
+        "MODULE_LICENSE()",
+        "MODULE_AUTHOR() and MODULE_DESCRIPTION()"
+      ],
+      "answer": 4
+    },
+    {
+      "question": "How many child processes are created when fork() is called twice in a program?",
+      "type": "multiple_choice",
+      "choices": ["2", "3", "4", "1"],
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of pthread_join() in a multithreaded program?",
+      "type": "multiple_choice",
+      "choices": [
+        "To kill the child thread",
+        "To synchronize and wait for a thread to complete",
+        "To pause all threads",
+        "To create a new thread"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Dynamic arrays created using malloc should be released using free() to avoid memory leaks.",
+      "type": "true_false",
+      "answer": true
+    },
+    {
+      "question": "In priority scheduling, what is the turnaround time for a process?",
+      "type": "multiple_choice",
+      "choices": [
+        "Waiting time + Burst time",
+        "Burst time - Waiting time",
+        "Completion time - Arrival time",
+        "Burst time only"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "A safe sequence in Banker's algorithm ensures that:",
+      "type": "multiple_choice",
+      "choices": [
+        "All processes will finish without deadlock",
+        "Deadlocks are allowed but managed",
+        "The algorithm will terminate early",
+        "Resources are equally divided"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which condition correctly checks if a queue is full?",
+      "type": "multiple_choice",
+      "choices": [
+        "front == rear",
+        "rear == QUEUE_SIZE - 1",
+        "rear == -1",
+        "front == QUEUE_SIZE"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The function countString() in lab 8 counts occurrences of which word?",
+      "type": "multiple_choice",
+      "choices": ["Canada", "O", "guard", "Anthem"],
+      "answer": 1
+    },
+    {
+      "question": "Which function is used to create a socket in the lab9 server/client code?",
+      "type": "multiple_choice",
+      "choices": ["connect()", "socket()", "bind()", "listen()"],
+      "answer": 2
+    },
+    {
+      "question": "In socket programming, the bind() function is used on the client side.",
+      "type": "true_false",
+      "answer": false
+    }
+  ]
+}
